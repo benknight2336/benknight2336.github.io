@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Nova</title>
+  <meta name="description" content="Nova is a personal desktop assistant that runs on your own computer.">
+  <style>
+    :root { color-scheme: light dark; --bg: #f7f8fa; --text: #1b1f27; --muted: #5b6372; --accent: #3d7cc9; --card: #ffffff; --line: #dde1e8; }
+    @media (prefers-color-scheme: dark) { :root { --bg: #0b1220; --text: #e6e9ef; --muted: #9aa3b2; --accent: #6aa7ea; --card: #121b2c; --line: #233047; } }
+    body { margin: 0; background: var(--bg); color: var(--text); font: 17px/1.6 system-ui, -apple-system, "Segoe UI", sans-serif; }
+    main { max-width: 720px; margin: 0 auto; padding: 56px 20px 72px; }
+    h1 { font-size: 2.4rem; margin: 0 0 4px; }
+    .tag { color: var(--muted); margin: 0 0 32px; font-size: 1.1rem; }
+    .card { background: var(--card); border: 1px solid var(--line); border-radius: 14px; padding: 20px 24px; margin: 0 0 16px; }
+    .card h2 { margin: 0 0 6px; font-size: 1.1rem; }
+    .card p { margin: 0; color: var(--muted); }
+    a { color: var(--accent); }
+    footer { margin-top: 40px; color: var(--muted); font-size: 0.95rem; }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>Nova</h1>
+    <p class="tag">A personal desktop assistant that runs on your own computer.</p>
+
+    <div class="card">
+      <h2>Mail and calendars in one place</h2>
+      <p>Nova connects to your own Gmail, iCloud, and Outlook accounts so you can read, sort, and send mail and see all your calendars together.</p>
+    </div>
+    <div class="card">
+      <h2>Local AI</h2>
+      <p>Nova's assistant runs on your computer with a local model. Summaries, sorting, and suggested replies are made on your machine, not on a server.</p>
+    </div>
+    <div class="card">
+      <h2>Private by design</h2>
+      <p>Nova has no servers and no accounts of its own. Your mail, calendar, and sign-in tokens stay on your computer.</p>
+    </div>
+
+    <p>Nova is a personal project and is not offered to the public.</p>
+
+    <footer>
+      <a href="privacy.html">Privacy Policy</a> · <a href="terms.html">Terms of Service</a>
+    </footer>
+  </main>
+</body>
+</html>
